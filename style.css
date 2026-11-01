@@ -101,10 +101,9 @@ nav{
     color:white;
     font: size 20px;
     font-family: 'Inter',sans-serif;
-    width:8rem;
-    height:2.5rem;
-    padding: 0.2rem 0.9rem;
-    white-space: nowrap;
+    width:128px;
+    height:48px;
+    padding: 3.2px 14.4px;
 }
 #body_container
 {
@@ -152,48 +151,32 @@ nav{
     height: auto;
     margin-top:50px;
     margin-left:70px;
-    padding: 1.5rem 2.5rem; 
-    font-size: 1.25rem; 
-    white-space: nowrap; 
+    padding: 24px 40px; 
+    font-size: 20px; 
+
 }
 #explore_button:hover{
     background-color:transparent;
     transform: translateY(-4px);
+    color:rgb(23,101,122);
+
+}
+#approach_button{
+    background-color:transparent;
     border-radius: 8px;
     color:rgb(23,101,122);
     width: auto;
     height: auto;
     margin-top:50px;
-    margin-left:70px;
-    padding: 1.5rem 2.5rem; 
-    font-size: 1.25rem;  
-    white-space: nowrap; 
-}
-#approach_button{
-    background-color:transparent;
-    border-radius: 8px;
-    color:white;
-    width: auto;
-    height: auto;
-    margin-top:50px;
     margin-left:20px;
-    padding: 1.5rem 2.5rem; 
-    font-size: 1.25rem;  
-    white-space: nowrap; 
-     color:rgb(23,101,122);
+    padding: 24px 40px; 
+    font-size: 20px;  
 }
 #approach_button:hover{
     background-color:bisque;
     transform: translateY(-4px);
-    border-radius: 8px;
+    
     color:black;
-    width: auto;
-    height: auto;
-    margin-top:50px;
-    margin-left:20px;
-    padding: 1.5rem 2.5rem; 
-    font-size: 1.25rem;  
-    white-space: nowrap; 
 }
 
 #footer{
@@ -259,3 +242,15 @@ nav{
     width:200px;
     height:50px;
 }
+
+.buttonn:hover{
+    transform: translateY(-2px);
+}
+
+.dropboxminimise
+{
+    
+    background: transparent;
+    border: none;
+    outline: none;
+    }
