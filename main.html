@@ -4,7 +4,7 @@
 
 <head>
     <title>AAM Travels</title>
-    <link rel="icon" href="globe.jpeg">
+    <link rel="icon" href="globe.png">
 
     <meta charset="UTF-8">
   <title>My Website</title>
@@ -18,8 +18,13 @@
 </head>
 
 <nav class="navbar">
+
     <div>
+        <a href="https://google.com">
+            <img src="globe.png" id="logo" alt="Logo">
+        </a>
         <p1 id="navtitle">
+
             <a href="https://google.com" id="abctravels" title="abc">
                 <b>AAM</b>
             </a>
@@ -116,8 +121,8 @@
 </body>
 
 <footer id="footer">
-    <div id="footer_container">
-        <h1 id="footer_header">
+    <div class="footercontainer">
+        <h1 class="footerheader">
             
                 Find your kind of away.
         </h1>
@@ -128,12 +133,12 @@
 
     </div>
 
-    <div id="footer_container2">
-        <h1 id="footer_header2">
+    <div class="footercontainer">
+        <h1 class="footerheader">
             WHERE TO ?
         </h1>
 
-        <form action="submit/form" method="post" id = "destination_form">
+        <form action="submit/form" method="post" class="footerform">
             <select name="Destination" id="Destination">
                 <option value="Pakistan">Pakistan</option>
                 <option value="Greece">Greece</option>
@@ -141,6 +146,37 @@
                 <option value="Spain">Spain</option>
             </select>
         </form>
+
+    </div>
+
+    <div class="footercontainer">
+        <h1 class="footerheader">
+            YOUR PACE
+        </h1>
+        <form action="submit/form" method="post" class="footerform">
+            <select name="Destination" id="Destination">
+                <option value="Slow">Slow</option>
+                <option value="Fast">Fast</option>
+                <option value="Medium">Medium</option>
+                <option value="Enjoyable">Enjoyable</option>
+            </select>
+        </form>
+    </div>
+
+    <div class="footercontainer" id = "lastfootercontainer">
+        <h1 class="footerheader">
+            When
+        </h1>
+        <form class="footerform">
+            <select name="When" id="When">
+                <input type="date">
+            </select>
+        </form>
+    </div>
+
+    <button id="footer_button">
+        Find my escape
+    </button>
 </footer>
 
 
