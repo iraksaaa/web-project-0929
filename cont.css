@@ -1,0 +1,192 @@
+#contact_body{
+    margin:0;
+    background-color:rgb(250,247,240);
+}
+
+#contact_process{
+    background-color:rgb(241,233,218);
+    display:flex;
+    justify-content:space-between;
+    padding:25px 5.5%;
+    height:114px;
+    align-items:center;
+    gap:35px;
+}
+
+#process_heading{
+    width:30%;
+}
+
+.contact_small_heading{
+    color:rgb(23,101,122);
+    font-family:'Inter',sans-serif;
+    font-size:9px;
+    font-weight:600;
+    letter-spacing:1.5px;
+    margin-bottom:10px;
+}
+
+#process_heading h1{
+    color:rgb(24,61,70);
+    font-family:'DM Serif Display',serif;
+    font-size:25px;
+    font-weight:400;
+    margin:0;
+}
+
+.process_container{
+    width:20%;
+}
+
+.process_container h1{
+    color:rgb(23,101,122);
+    font-family:'DM Serif Display',serif;
+    font-size:20px;
+    margin:0;
+}
+
+.process_container h3{
+    color:rgb(24,61,70);
+    font-family:'Inter',sans-serif;
+    font-size:12px;
+    font-weight:600;
+    margin-top:10px;
+    margin-bottom:8px;
+}
+
+.process_container p{
+    color:rgb(101,116,119);
+    font-family:'Inter',sans-serif;
+    font-size:10px;
+    line-height:17px;
+    margin:0;
+}
+
+
+#contact_faq{
+    padding:50px 5.5% 45px;
+    background-color:rgb(250,247,240);
+}
+
+#faq_heading{
+    color:rgb(24,61,70);
+    font-family:'DM Serif Display',serif;
+    font-size:34px;
+    font-weight:400;
+    margin-top:0;
+    margin-bottom:25px;
+}
+
+#faq_container{
+    display:flex;
+    justify-content:space-between;
+    gap:48px;
+}
+
+.faq_column{
+    width:50%;
+}
+
+.faq_item{
+    border-top:1px solid rgb(224,221,212);
+    padding-top:17px;
+    padding-bottom:20px;
+}
+
+.faq_item h2{
+    color:rgb(24,61,70);
+    font-family:'DM Serif Display',serif;
+    font-size:19px;
+    font-weight:400;
+    margin:0;
+}
+
+.faq_item p{
+    color:rgb(101,116,119);
+    font-family:'Inter',sans-serif;
+    font-size:11px;
+    line-height:18px;
+    margin-top:10px;
+    margin-bottom:0;
+}
+
+
+#contact_footer{
+    background-color:rgb(19,65,77);
+    color:white;
+    padding:35px 5.5% 15px;
+}
+
+#contact_footer_top{
+    display:flex;
+    justify-content:space-between;
+    padding-bottom:25px;
+}
+
+#contact_brand{
+    width:38%;
+}
+
+#contact_brand h1{
+    color:white;
+    font-family:'DM Serif Display',serif;
+    font-size:24px;
+    font-weight:400;
+    margin:0;
+}
+
+#contact_brand h1 span{
+    font-family:'Inter',sans-serif;
+    font-size:8px;
+    font-weight:600;
+    letter-spacing:2px;
+}
+
+#contact_brand p{
+    color:rgb(195,211,214);
+    font-family:'Inter',sans-serif;
+    font-size:11px;
+    line-height:19px;
+    margin-top:15px;
+}
+
+#social_links{
+    display:flex;
+    gap:18px;
+    margin-top:12px;
+}
+
+#social_links a{
+    color:white;
+    text-decoration:none;
+    font-family:'Inter',sans-serif;
+    font-size:16px;
+}
+
+.contact_footer_column{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    width:20%;
+}
+
+.contact_footer_column h3{
+    color:white;
+    font-family:'Inter',sans-serif;
+    font-size:11px;
+    font-weight:600;
+    margin:0 0 0px;
+}
+
+.contact_footer_column a,
+.contact_footer_column p{
+    color:rgb(195,211,214);
+    font-family:'Inter',sans-serif;
+    font-size:10px;
+    text-decoration:none;
+    margin:0;
+}
+
+.contact_footer_column a:hover{
+    color:white;
+}
