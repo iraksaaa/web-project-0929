@@ -1,0 +1,206 @@
+#destination_body{
+    margin:0;
+    background-color:rgb(250,247,240);
+    border-top:6px solid rgb(231,240,238);
+}
+
+#destination_section{
+    padding:55px 4.7%;
+}
+
+.small_heading{
+    color:rgb(23,101,122);
+    font-family:'Inter',sans-serif;
+    font-size:9px;
+    font-weight:600;
+    letter-spacing:2px;
+    margin-bottom:12px;
+}
+
+#destination_heading{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+
+.main_heading{
+    color:rgb(24,61,70);
+    font-family:'DM Serif Display',serif;
+    font-size:34px;
+    font-weight:400;
+    margin:0;
+}
+
+.sub_heading{
+    color:rgb(101,116,119);
+    font-family:'Inter',sans-serif;
+    font-size:13px;
+    margin-top:10px;
+}
+
+.outline_button{
+    background-color:transparent;
+    border:1px solid rgb(23,101,122);
+    border-radius:4px;
+    color:rgb(23,101,122);
+    padding:12px 18px;
+    font-family:'Inter',sans-serif;
+    font-weight:600;
+    margin-bottom:0px;
+}
+
+.outline_button:hover{
+    background-color:rgb(23,101,122);
+    color:white;
+}
+
+#destination_cards{
+    display:flex;
+    justify-content:space-between;
+    gap:18px;
+    margin-top:28px;
+}
+
+.destination_card{
+    background-color:white;
+    border:1px solid rgb(224,221,212);
+    border-radius:6px;
+    width:33.33%;
+    overflow:hidden;
+}
+
+.destination_image{
+    position:relative;
+    width:100%;
+    height:197px;
+}
+
+.destination_image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.image_label{
+    position:absolute;
+    top:12px;
+    left:12px;
+    background-color:rgb(250,247,240);
+    color:rgb(24,61,70);
+    font-family:'Inter',sans-serif;
+    font-size:9px;
+    padding:6px 10px;
+    border-radius:3px;
+}
+
+.card_content{
+    padding:16px 17px;
+}
+
+.card_details{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.card_details span{
+    color:rgb(23,101,122);
+    font-family:'Inter',sans-serif;
+    font-size:9px;
+    letter-spacing:1px;
+}
+
+.card_details p{
+    color:rgb(101,116,119);
+    font-family:'Inter',sans-serif;
+    font-size:9px;
+    margin:0;
+}
+
+.card_content h2{
+    color:rgb(24,61,70);
+    font-family:'DM Serif Display',serif;
+    font-size:20px;
+    font-weight:400;
+    margin-top:12px;
+    margin-bottom:10px;
+}
+
+.card_description{
+    color:rgb(101,116,119);
+    font-family:'Inter',sans-serif;
+    font-size:10px;
+    margin-bottom:12px;
+}
+
+.card_price{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-top:1px solid rgb(224,221,212);
+    padding-top:10px;
+}
+
+.card_price p{
+    color:rgb(101,116,119);
+    font-family:'Inter',sans-serif;
+    font-size:10px;
+    margin:0;
+}
+
+.card_price b{
+    color:rgb(24,61,70);
+    font-size:16px;
+}
+
+.card_price span{
+    color:rgb(23,101,122);
+    font-size:17px;
+}
+
+#journey_section{
+    margin-top:70px;
+}
+
+#journey_cards{
+    display:flex;
+    justify-content:space-between;
+    gap:18px;
+    margin-top:22px;
+}
+
+.journey_card{
+    width:33.33%;
+}
+
+.journey_card img{
+    width:100%;
+    height:183px;
+    object-fit:cover;
+    border-radius:4px;
+}
+
+.journey_title{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.journey_title h2{
+    color:rgb(24,61,70);
+    font-family:'DM Serif Display',serif;
+    font-size:21px;
+    font-weight:400;
+    margin-top:12px;
+    margin-bottom:8px;
+}
+
+.journey_title span{
+    color:rgb(23,101,122);
+}
+
+.journey_card p{
+    color:rgb(101,116,119);
+    font-family:'Inter',sans-serif;
+    font-size:11px;
+}
